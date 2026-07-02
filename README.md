@@ -20,25 +20,13 @@ Pages can't serve from it on a free plan).
 - **Crashlytics**: the privacy policy already covers it ("may use"), fine whether or not
   Firebase ends up wired in.
 
-## Deploy (one-time, ~3 minutes)
+## Deployed (done 2 July 2026)
 
-1. On github.com: **New repository** → name e.g. `draw3d-legal`, **Public**, no README.
-2. Push these files as their own repo:
+Repo: `https://github.com/BargoEmbargo/mannequink-legal` (public), GitHub Pages serving
+`main` / root. Live URLs:
 
-   ```bash
-   cd legal
-   git init -b main
-   git add index.html privacy-policy.html terms-of-service.html
-   git commit -m "Draw3D privacy policy + terms of service"
-   git remote add origin https://github.com/BargoEmbargo/draw3d-legal.git
-   git push -u origin main
-   ```
-
-3. On github.com in the new repo: **Settings → Pages → Build and deployment** →
-   Source: *Deploy from a branch* → Branch: `main`, folder `/ (root)` → Save.
-4. Wait ~1 minute; the pages go live at:
-   - `https://bargoembargo.github.io/draw3d-legal/privacy-policy.html`
-   - `https://bargoembargo.github.io/draw3d-legal/terms-of-service.html`
+- `https://bargoembargo.github.io/mannequink-legal/privacy-policy.html`
+- `https://bargoembargo.github.io/mannequink-legal/terms-of-service.html`
 
 Paste the privacy-policy URL into **Play Console → App content → Privacy policy** (and into
 the Data safety form where asked). Updating the pages later = edit + `git push`; the URL
