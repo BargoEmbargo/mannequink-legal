@@ -1,4 +1,4 @@
-# Draw3D legal pages
+# Mannequink legal pages
 
 Static Privacy Policy + Terms of Service pages for the Google Play listing, meant to be
 served from a **separate public GitHub repo** via GitHub Pages (the app repo is private, so
@@ -10,11 +10,11 @@ Pages can't serve from it on a free plan).
 - `privacy-policy.html` — the URL for the Play Console / AdMob / Data safety forms
 - `terms-of-service.html`
 
-## Before publishing — placeholders to review
+## Before publishing — remaining placeholders to review
 
-- **Contact email**: currently `support@draw3d.app` — the same dummy as `AppConfig.CONTACT_EMAIL`.
-  Replace in all three HTML files *and* in `AppConfig.kt` when you have the real address.
-- **App name**: "Draw3D" — must match the final Play Store listing name.
+- **Contact email**: `mannequink.support@gmail.com` (updated 3 July 2026, matches
+  `AppConfig.CONTACT_EMAIL` in the app).
+- **App name**: "Mannequink" (updated 3 July 2026) — matches the intended Play Store listing name.
 - **Developer name**: "Daniel Pitropovski" (privacy §intro, terms §1).
 - **Governing law**: Czech Republic (terms §13) — confirm this is where you'll publish from.
 - **Crashlytics**: the privacy policy already covers it ("may use"), fine whether or not
